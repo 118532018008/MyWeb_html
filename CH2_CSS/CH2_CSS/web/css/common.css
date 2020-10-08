@@ -1,0 +1,80 @@
+/*页面元素内外边距清零*/
+div{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+/*边距0*/
+body, ul, li, form, input, a, img, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/*字体*/
+@font-face {
+    font-family: Slabo27px-Regular;
+    src: url("../fonts/Slabo27px-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+/*页面字体大小*/
+html{
+    font-size: 20px;
+    color: #87809c;
+}
+
+/*链接颜色*/
+a:link {color:#87809c;}      /* 未访问链接*/
+a:visited {color:#00d4dd;}  /* 已访问链接 */
+a:hover {color:#00d4dd;}  /* 鼠标移动到链接上 */
+a:active {color:#00d4dd;}  /* 鼠标点击时 */
+
+/*去除链接下划线*/
+a:link {text-decoration:none;}
+
+/*按钮/选择器*/
+input[type=submit] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+
+/*弹性盒子*/
+ul{
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+
+
+}
+
+/*logo垂直居中*/
+.logo{
+    position:absolute;
+    left:50%;
+    width: 6rem;
+    height: 6rem;.
+    margin:-3rem;
+    z-index: 9;
+}
+.logo img{
+    width: 6rem;
+    height: 6rem;.
+}

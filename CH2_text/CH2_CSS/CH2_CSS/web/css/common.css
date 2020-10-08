@@ -1,0 +1,225 @@
+/*页面元素内外边距清零*/
+div {
+ border: none;
+}
+
+/*边距0*/
+body, ul, li, form, input, a, img, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/*去除ul小圆点*/
+ul {
+    list-style: none;
+}
+
+/*字体*/
+@font-face {
+    font-family: Slabo27px-Regular;
+    src: url("../fonts/Slabo27px-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+/*页面字体大小*/
+html {
+    font-size: 20px;
+    color: #87809c;
+}
+
+/*链接颜色*/
+a:link {
+    color: #87809c;
+}
+
+/* 未访问链接*/
+a:visited {
+    color: #00d4dd;
+}
+
+/* 已访问链接 */
+a:hover {
+    color: #00d4dd;
+}
+
+/* 鼠标移动到链接上 */
+a:active {
+    color: #00d4dd;
+}
+
+/* 鼠标点击时 */
+
+/*去除链接下划线*/
+a:link {
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*标题选项栏*/
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*菜单*/
+
+.menu {
+    /*overflow: hidden;*/
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*弹性盒子*/
+ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    background: none;
+    position: relative;
+    padding: 70px 0 20px;
+    text-align: center;
+}
+
+/*左部标题*/
+.header-left {
+    display: flex;
+    justify-content:space-between;
+    float: left;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/*登入*/
+.login {
+
+}
+/*top*/
+.top{
+    text-align: center;
+    float: left;
+    width: 78%;
+    margin: 0 auto;
+}
+.block{
+    width: 30px;
+    height: 20px;
+}
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 30px;
+}
+.account{
+    padding: 65px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+}
+
+.account-left{
+    float: left;
+    width: 40%;
+}
+/*注册*/
+.registration_form{
+    display: block;
+}
+
+/*Search*/
+input[type=search] {
+    padding: 8px 4px;
+    text-align: center;
+    margin: 8px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+
+/*按钮/选择器*/
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    width: 70%;
+}
+
+
+input[type=text] {
+    padding: 8px 8px;
+    text-align: center;
+    margin: 8px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 70%;
+}
+input[type=Email] {
+    padding: 8px 8px;
+    text-align: center;
+    margin: 8px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 70%;
+}
+input[type=password] {
+    padding: 8px 8px;
+    text-align: center;
+    margin: 8px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 70%;
+}
+.footer{
+    box-sizing: border-box;
+    padding-top: 200px;
+}
+
+.footer-left{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+}
